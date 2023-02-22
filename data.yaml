@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['apple', 'google', 'ibm', 'intel', 'microsoft', 'nvidia', 'thales']
+
+roboflow:
+  workspace: project
+  project: 5days-fmylk
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/5days-fmylk/dataset/4
